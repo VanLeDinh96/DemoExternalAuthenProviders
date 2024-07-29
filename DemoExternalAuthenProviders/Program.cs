@@ -16,7 +16,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Configure authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
