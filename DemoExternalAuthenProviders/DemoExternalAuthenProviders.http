@@ -1,0 +1,6 @@
+@DemoExternalAuthenProviders_HostAddress = http://localhost:5240
+
+GET {{DemoExternalAuthenProviders_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
